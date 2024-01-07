@@ -1,8 +1,9 @@
-# React + Vite
+# ShawnyShogz Portfolio Webiste
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1494" alt="Screenshot 2024-01-07 at 18 46 11" src="https://github.com/ShawnyShogz/shawnyshogz/assets/44364291/233c7283-a5e4-4815-b4af-a7b9d390d1c6">
 
-Currently, two official plugins are available:
+Personal Porfolio webiste to be hosted on shawnyshogz.com
+This project uses React, Vite, Tailwindcss, Threejs and Framer Motion
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone project and run 
+`npm run dev`
