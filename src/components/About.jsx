@@ -49,10 +49,10 @@ const About = () => {
         confrences around the world. I'm an avid football(Arsenal) fan and I
         hate Tottenham i also enjoy playing video games in my spare time. I'm
         currently working on a few projects which you can find on my{" "}
-        <a href="" className="underline">
+        <a href="https://github.com/ShawnyShogz" className="underline">
           Github
         </a>{" "}
-        a.
+        .
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
