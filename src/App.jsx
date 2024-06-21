@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Navbar } from "./components";
 
-import Terms from "./pages/terms";
+import Terms from "./pages/Terms";
 import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
 
