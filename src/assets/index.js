@@ -4,7 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
-import instagram from "./instagram.png";
+import instagram from "./Instagram.png";
 import tiktok from "./tiktok.webp";
 import twitter from "./twitter-logo.png";
 import menu from "./menu.svg";
