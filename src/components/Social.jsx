@@ -18,6 +18,7 @@ const ProjectCard = ({
   logo_image,
 }) => {
   const [instaPosts, setInstaPosts] = useState([]);
+  const accessToken = import.meta.env.VITE_APP_INSTA_ACCESS_TOKEN;
 
   useEffect(() => {
     // this is to avoid memory leaks
@@ -27,7 +28,7 @@ const ProjectCard = ({
       try {
         axios
           .get(
-            `https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&limit=10&access_token=IGQWROSlQ2bzlUV0FpRXQtTkVYSVZARMGxhZAEF0Qk9ueXE5aUhpc0lmQWxJbGhQSnZADUUd3NDlfSU8ybkkwUllQT2VTUzlaS216VXB2TDNzV3duT2lhNXBMZAzlsLVIyYzFPQU1RRVp4b3ZAnZAwZDZD`
+            `https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&limit=10&access_token=${accessToken}`
           )
           .then((resp) => {
             setInstaPosts(resp.data.data);
