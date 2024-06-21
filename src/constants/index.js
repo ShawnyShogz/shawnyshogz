@@ -17,12 +17,14 @@ import {
   docker,
   tgw,
   eurostar,
-  carrent,
-  jobit,
-  tripguide,
+  tiktok_big,
+  x_logo,
   threejs,
   uol_logo,
   dmu_logo,
+  instagram,
+  tiktok,
+  twitter,
 } from "../assets";
 
 export const navLinks = [
@@ -199,67 +201,70 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Instagram",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "I probably post the most here mainly travel ect so feel free to give me a follow or just watch from a distance.",
     tags: [
       {
-        name: "react",
+        name: "travel",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "food",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "life",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: instagram,
+    social_link: "https://www.instagram.com/shawny_shogz/",
+    logo_image: instagram,
   },
   {
-    name: "Job IT",
+    name: "Tiktok",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I try to post coding related content here, but I also post some travel content here too. Key word try",
     tags: [
       {
-        name: "react",
+        name: "travel",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "coding",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tech",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tiktok_big,
+    social_link: "https://www.tiktok.com/@shawny_shogz",
+    logo_image: tiktok,
   },
   {
-    name: "Trip Guide",
+    name: "Twitter",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I really don't post here at all but I've found this is the best place for worldly news and Arsenal transfer updates",
     tags: [
       {
-        name: "nextjs",
+        name: "news",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "football",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tech",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: x_logo,
+    social_link: "https://twitter.com/ShawnyShogz",
+    logo_image: twitter,
   },
 ];
 

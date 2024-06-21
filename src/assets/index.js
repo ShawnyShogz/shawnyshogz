@@ -4,6 +4,9 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import instagram from "./instagram.png";
+import tiktok from "./tiktok.webp";
+import twitter from "./twitter-logo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,6 +32,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import uol_logo from "./uol_logo.png";
 import dmu_logo from "./dmu_logo.png";
+import tiktok_big from "./Tiktok_big.png";
+import x_logo from "./X-logo.png";
 
 export {
   logo,
@@ -59,4 +64,9 @@ export {
   tripguide,
   uol_logo,
   dmu_logo,
+  instagram,
+  tiktok,
+  twitter,
+  tiktok_big,
+  x_logo,
 };
